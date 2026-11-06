@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Developer & Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Dev<span>Portfolio</span></a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+            <p>Software Engineer & Creator building modern digital experiences and high-performance solutions.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#contact" class="btn secondary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p class="section-subtitle">Get to know my background and technical stack.</p>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am a passionate developer focused on building clean, efficient, and user-centric applications. With a strong foundation in modern web technologies, I enjoy tackling complex problems and turning ideas into robust software.</p>
+                </div>
+                <div class="skills">
+                    <h3>Core Technologies</h3>
+                    <ul class="skill-list">
+                        <li>JavaScript (ES6+)</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>Git & GitHub</li>
+                        <li>Responsive Design</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section alt-bg">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <p class="section-subtitle">Some of my recent work.</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Project One</h3>
+                    <p>A high-performance web application built with vanilla JavaScript and modern CSS architectures.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Demo</a>
+                        <a href="#" target="_blank">Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Project Two</h3>
+                    <p>An automated utility tool designed to streamline workflows and improve operational efficiency.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Demo</a>
+                        <a href="#" target="_blank">Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Project Three</h3>
+                    <p>A responsive e-commerce component interface built with clean semantics and accessibility in mind.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Demo</a>
+                        <a href="#" target="_blank">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="section-subtitle">Have a project in mind or want to collaborate? Send a message.</p>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
