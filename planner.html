@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Planner | Academic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Academia<span>Portfolio</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="planner.html">Academic Planner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2 class="section-title">Academic Task Planner</h2>
+            <p class="section-subtitle">Manage your coursework, assignments, and study schedule interactively.</p>
+
+            <div class="planner-wrapper">
+                <!-- Add Task Input Form -->
+                <div class="planner-input-group">
+                    <input type="text" id="taskInput" placeholder="Enter new academic task or assignment...">
+                    <button id="addTaskBtn" class="btn btn-primary">Add Task</button>
+                </div>
+
+                <!-- Dynamic Task List -->
+                <ul id="taskList" class="task-list">
+                    <!-- Tasks injected dynamically via JavaScript -->
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Alexander Wright. Student Academic Management Platform.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
